@@ -11,6 +11,8 @@
 		CD2F19301BB8013B00536998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F192F1BB8013B00536998 /* ViewController.swift */; };
 		CD2F19331BB8013B00536998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F19311BB8013B00536998 /* Main.storyboard */; };
 		CD2F19351BB8013B00536998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F19341BB8013B00536998 /* Assets.xcassets */; };
+		CD3FBA041BB81F2F00167A92 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FBA031BB81F2F00167A92 /* SwiftyJSON.swift */; };
+		CD3FBA061BB81FEB00167A92 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FBA051BB81FEB00167A92 /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		CD2F19321BB8013B00536998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2F19341BB8013B00536998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2F19361BB8013B00536998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3FBA031BB81F2F00167A92 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CD3FBA051BB81FEB00167A92 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		CD2F192C1BB8013B00536998 /* PopularTVShows */ = {
 			isa = PBXGroup;
 			children = (
+				CD3FBA031BB81F2F00167A92 /* SwiftyJSON.swift */,
 				CD2F192D1BB8013B00536998 /* AppDelegate.swift */,
 				CD2F192F1BB8013B00536998 /* ViewController.swift */,
 				CD2F19311BB8013B00536998 /* Main.storyboard */,
 				CD2F19341BB8013B00536998 /* Assets.xcassets */,
 				CD2F19361BB8013B00536998 /* Info.plist */,
+				CD3FBA051BB81FEB00167A92 /* ApiService.swift */,
 			);
 			path = PopularTVShows;
 			sourceTree = "<group>";
@@ -131,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3FBA041BB81F2F00167A92 /* SwiftyJSON.swift in Sources */,
 				CD2F19301BB8013B00536998 /* ViewController.swift in Sources */,
+				CD3FBA061BB81FEB00167A92 /* ApiService.swift in Sources */,
 				CD2F192E1BB8013B00536998 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +284,7 @@
 				CD2F193B1BB8013B00536998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
