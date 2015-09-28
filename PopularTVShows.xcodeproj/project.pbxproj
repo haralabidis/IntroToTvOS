@@ -13,6 +13,8 @@
 		CD2F19351BB8013B00536998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F19341BB8013B00536998 /* Assets.xcassets */; };
 		CD3FBA041BB81F2F00167A92 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FBA031BB81F2F00167A92 /* SwiftyJSON.swift */; };
 		CD3FBA061BB81FEB00167A92 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FBA051BB81FEB00167A92 /* ApiService.swift */; };
+		CDB733101BB95ADD00D8E742 /* ApiResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB7330F1BB95ADD00D8E742 /* ApiResults.swift */; };
+		CDB733121BB95D9C00D8E742 /* ApiTVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB733111BB95D9C00D8E742 /* ApiTVResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CD2F19361BB8013B00536998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3FBA031BB81F2F00167A92 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		CD3FBA051BB81FEB00167A92 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CDB7330F1BB95ADD00D8E742 /* ApiResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResults.swift; sourceTree = "<group>"; };
+		CDB733111BB95D9C00D8E742 /* ApiTVResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTVResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CD2F19341BB8013B00536998 /* Assets.xcassets */,
 				CD2F19361BB8013B00536998 /* Info.plist */,
 				CD3FBA051BB81FEB00167A92 /* ApiService.swift */,
+				CDB7330F1BB95ADD00D8E742 /* ApiResults.swift */,
+				CDB733111BB95D9C00D8E742 /* ApiTVResult.swift */,
 			);
 			path = PopularTVShows;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				CD2F19301BB8013B00536998 /* ViewController.swift in Sources */,
 				CD3FBA061BB81FEB00167A92 /* ApiService.swift in Sources */,
 				CD2F192E1BB8013B00536998 /* AppDelegate.swift in Sources */,
+				CDB733101BB95ADD00D8E742 /* ApiResults.swift in Sources */,
+				CDB733121BB95D9C00D8E742 /* ApiTVResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

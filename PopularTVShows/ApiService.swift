@@ -8,9 +8,9 @@
 
 import Foundation
 
+let API_TV_POPULAR_URL = "http://api.themoviedb.org/3/tv/popular?api_key=yourKeyHere"
+
 class ApiService {
-    
-    let API_TV_POPULAR_URL = "http://api.themoviedb.org/3/tv/popular?api_key=ff743742b3b6c89feb59dfc138b4c12f"
     
     static let sharedInstance = ApiService()
     
