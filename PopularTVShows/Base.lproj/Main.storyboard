@@ -19,14 +19,14 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2mQ-Dm-5Ds">
                                 <rect key="frame" x="20" y="0.0" width="1880" height="1080"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KJJ-Jb-hlV">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KJJ-Jb-hlV">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShowCell" id="vDH-f0-lEi">
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShowCell" id="vDH-f0-lEi" customClass="ShowCell" customModule="PopularTVShows" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="260" height="430"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -60,6 +60,10 @@
                                             <constraint firstItem="pEh-ku-l2R" firstAttribute="centerX" secondItem="vDH-f0-lEi" secondAttribute="centerX" id="kJY-nY-KZM"/>
                                         </constraints>
                                         <size key="customSize" width="260" height="430"/>
+                                        <connections>
+                                            <outlet property="showImg" destination="pEh-ku-l2R" id="a0l-XT-WAa"/>
+                                            <outlet property="showLbl" destination="cYH-0O-f5u" id="POC-My-dYe"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -72,6 +76,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2mQ-Dm-5Ds" secondAttribute="bottom" id="kyY-K0-WAa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="2mQ-Dm-5Ds" id="vNb-9w-oMZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

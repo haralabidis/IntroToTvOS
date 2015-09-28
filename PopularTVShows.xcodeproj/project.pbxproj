@@ -15,6 +15,7 @@
 		CD3FBA061BB81FEB00167A92 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FBA051BB81FEB00167A92 /* ApiService.swift */; };
 		CDB733101BB95ADD00D8E742 /* ApiResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB7330F1BB95ADD00D8E742 /* ApiResults.swift */; };
 		CDB733121BB95D9C00D8E742 /* ApiTVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB733111BB95D9C00D8E742 /* ApiTVResult.swift */; };
+		CDB733141BB963F800D8E742 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB733131BB963F800D8E742 /* ShowCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CD3FBA051BB81FEB00167A92 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		CDB7330F1BB95ADD00D8E742 /* ApiResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResults.swift; sourceTree = "<group>"; };
 		CDB733111BB95D9C00D8E742 /* ApiTVResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTVResult.swift; sourceTree = "<group>"; };
+		CDB733131BB963F800D8E742 /* ShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CD3FBA051BB81FEB00167A92 /* ApiService.swift */,
 				CDB7330F1BB95ADD00D8E742 /* ApiResults.swift */,
 				CDB733111BB95D9C00D8E742 /* ApiTVResult.swift */,
+				CDB733131BB963F800D8E742 /* ShowCell.swift */,
 			);
 			path = PopularTVShows;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				CD3FBA041BB81F2F00167A92 /* SwiftyJSON.swift in Sources */,
 				CD2F19301BB8013B00536998 /* ViewController.swift in Sources */,
 				CD3FBA061BB81FEB00167A92 /* ApiService.swift in Sources */,
+				CDB733141BB963F800D8E742 /* ShowCell.swift in Sources */,
 				CD2F192E1BB8013B00536998 /* AppDelegate.swift in Sources */,
 				CDB733101BB95ADD00D8E742 /* ApiResults.swift in Sources */,
 				CDB733121BB95D9C00D8E742 /* ApiTVResult.swift in Sources */,
